@@ -9,12 +9,12 @@ void setup() {
 
 void loop() {
   
-  digitalWrite(0, HIGH);
-  digitalWrite(1, LOW);
+  // Make D5 and D6 blink alternately
+  digitalWrite(D5, HIGH);
+  digitalWrite(D6, LOW);
   delay(1000);
-  
-  digitalWrite(0, LOW);
-  digitalWrite(1, HIGH);
+  digitalWrite(D5, LOW);
+  digitalWrite(D6, HIGH);
   delay(1000);
 
 }
